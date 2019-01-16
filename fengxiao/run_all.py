@@ -6,6 +6,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import smtplib
 import os
+# import sys
+# reload(sys)
+# sys.setdefaultencoding( “utf-8” )
 
 #下面三行代码python2报告出现乱码时候可以加上####
 # import sys
